@@ -7,7 +7,7 @@
     "deploy": "gh-pages -d build",
     "start": "vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/recipe-app/ --outDir=docs",
     "preview": "vite preview"
   },
   "dependencies": {
